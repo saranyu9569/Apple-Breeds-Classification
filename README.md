@@ -6,17 +6,17 @@ The models include Convolutional Neural Networks (CNN), Random Forest (RF), Deci
 
 ## Models Used
 
-1. **Convolutional Neural Networks (CNN):** Trained on raw image data to learn patterns specific to apple breeds.
-2. **Random Forest (RF):** Trained on flattened image data as input features.
-3. **Decision Tree (DT):** Used for comparison with simpler tree-based models.
-4. **Feature Extraction + CNN:** Combined color histograms (from HSV color-space) with CNN features.
+1. **Feature Extraction + CNN:** Combined color histograms (from HSV color-space) with CNN features.
+2. **Convolutional Neural Networks (CNN):** Trained on raw image data to learn patterns specific to apple breeds.
+3. **Random Forest (RF):** Trained on flattened image data as input features.
+4. **Decision Tree (DT):** Used for comparison with simpler tree-based models.
 
 ## Results
 
 | Model                     | Validation Accuracy |
 |---------------------------|---------------------|
-| Convolutional Neural Network (CNN) | 96.0 |
 | Feature Extraction + CNN  | 1.00 |
+| Convolutional Neural Network (CNN) | 96.0 |
 | Random Forest (RF)        | 0.87 |
 | Decision Tree (DT)        | 0.65 |
 
