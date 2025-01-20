@@ -3,6 +3,8 @@
 This project aims to build a model to classify apple breeds from images using various machine learning and deep learning techniques, including Convolutional Neural Networks (CNN), Support Vector Machines (SVM), and k-Nearest Neighbors (k-NN).
 
 ![Learning Curve](learning_curve.png)
+This is showing the Learning Curve of the CNN model.
+
 
 ## Requirements
 
